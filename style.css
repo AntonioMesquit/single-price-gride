@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+/*font-family: 'Karla', sans-serif;*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.326);
+}
+.box1{
+    padding: 30px;
+    
+}
+.t1{
+    font-size: 26px;
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 30px;
+}
+.p2{
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.v{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.tx1{
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+.p3{
+    color: #61D0D0;
+
+}
+.p5{
+    color: #93EBEB;
+    margin-left: 10px;
+}
+.uni{
+display: flex;
+align-items: center;
+}
+.box2{
+display: flex;
+flex-direction: column;
+background-color: #2BB3B1;
+width: 300px;
+height: 200px;
+color: white;
+padding: 20px;
+border-bottom-left-radius: 10px;
+
+
+}
+.unir{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.p4{
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.x{
+    display: flex;
+    border: none;
+    background-color: #BFDF32;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    padding: 20px;
+    width: 300px;
+   height: 200px;
+   background-color: #4ABEBD;
+   color: white;
+   border-bottom-right-radius: 10px;
+}
+.tittl2{
+    margin-bottom: 20px;
+}
+.tit{
+    color: #93EBEB;
+}
+
+@media screen and (max-width: 600px){
+    .uni{
+        flex-direction: column;
+    }
+    .box1{
+        width: 290px;
+        margin-right: 0px;
+      }
+    .t1{
+        font-size: 20px;
+    }
+    .p3{
+        font-size: 13px;
+    }
+    .p2{
+        font-size: 14px;
+    }
+    .box3{
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .box2{
+        border-bottom-left-radius: 0px;
+    }
+ 
+}
+
+@media screen and (max-width: 600px) {
+    .box1 {
+        animation: fadeIn 1s ease-in-out;
+    }
+    .box2 {
+        animation: fadeIn 1s ease-in-out;
+    }
+    .box3 {
+        animation: fadeIn 1s ease-in-out;
+    }
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@media screen and (max-width: 601px) {
+    .box1 {
+        animation: fadeIn 1s ease-in-out;
+    }
+    .box2 {
+        animation: fadeIn 1s ease-in-out;
+    }
+    .box3 {
+        animation: fadeIn 1s ease-in-out;
+    }
+}
